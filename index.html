@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustPay AI | Fraud Protection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">🛡️ TrustPay AI</div>
+        <span class="status">● Protection Active</span>
+    </nav>
+
+    <header class="hero">
+        <h1>Stay Safe From Digital Payment Scams</h1>
+        <p>Analyze suspicious messages and identify common scam warning signs.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="scanner card">
+            <h2>📩 Scam Message Scanner</h2>
+            <p>Paste a suspicious SMS, WhatsApp message, or payment request below.</p>
+
+            <textarea id="messageInput"
+                placeholder="Paste your suspicious message here..."></textarea>
+
+            <button onclick="scanMessage()">🔍 Analyze Message</button>
+
+            <div id="result" class="result hidden"></div>
+        </section>
+
+        <section class="features">
+            <div class="card feature">
+                <h3>🔐 OTP Protection</h3>
+                <p>Never share your OTP, UPI PIN, or passwords with anyone.</p>
+            </div>
+
+            <div class="card feature">
+                <h3>💳 UPI Safety</h3>
+                <p>You generally do not need a UPI PIN to receive money.</p>
+            </div>
+
+            <div class="card feature">
+                <h3>🔗 Link Awareness</h3>
+                <p>Be cautious of unfamiliar links asking for sensitive information.</p>
+            </div>
+
+            <div class="card feature">
+                <h3>🚨 Emergency Guide</h3>
+                <p>If you suspect payment fraud, contact your bank immediately.</p>
+            </div>
+        </section>
+
+        <section class="card emergency">
+            <h2>🚨 Suspect Financial Fraud?</h2>
+            <p>In India, report cyber financial fraud promptly.</p>
+            <p><strong>Cybercrime Helpline: 1930</strong></p>
+            <p>Official reporting portal: cybercrime.gov.in</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>TrustPay AI | Hackathon Prototype</p>
+        <p>AI-assisted awareness. Results are informational and may not detect every scam.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
